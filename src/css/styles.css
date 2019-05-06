@@ -1,56 +1,20 @@
-#content {
-    color: #000002;
-    font-size: 40px;
-    background-color: white;
-    text-align: center;
+div#memory_board{
+  background: #CCC;
+  border:#999 1px solid;
+  width: 800px;
+  height: 540px;
+  padding:24px;
+  margin:0pxauto;
 }
-
-
-#one, #two ,#three, #four  {
-    height: 100px;
-    width:100px;
-    text-align: center;
-    align-content: center;
-
-}
-
-.dark1 {
-    background-color: #10b958;
-}
-
-.light1 {
-    background-color: #13FF75;
-}
-
-.dark2 {
-    background-color: #c61611;
-}
-
-.light2 {
-    background-color: #ff1c15;
-}
-
-
-.dark3 {
-    background-color: #dddf1a;
-}
-
-.light3 {
-    background-color: #fdff1d;
-}
-
-.dark4 {
-    background-color: #5ac5c6;
-}
-
-.light4 {
-    background-color: #73feff;
-}
-
-.btn{
-    height: 30px;
-    width: 40px;
-    text-align: center;
-    align-content: center;
-    background-color: transparent;
+div#memory_board > div{
+	background: url(https://myedmondsnews.com/wp-content/uploads/2018/04/question-mark-1019820_1280.jpg) no-repeat;
+	border:#000 1px solid;
+	width:71px;
+	height:71px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
 }
